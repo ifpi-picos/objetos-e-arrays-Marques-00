@@ -1,8 +1,23 @@
-//Crie um Objeto carro com as propriedades marca,modelo e ano. Em seguida, imprima a marca do carro.
-const carro = {
-    marca:"fiat",
-    modelo:"toro",
-    ano:2024,
+//Usando Módulos JavaScript, crie um módulo que contém funções matemáticas básicas (soma, subtração, multiplicação, divisão) e exponenciação.  Em seguida, utilize essas funções em outro arquivo.
 
-};
-console.log(carro.marca)
+function soma(a, b) {
+    return a + b;
+}
+  
+function subtracao(a, b) {
+    return a - b;
+}
+  
+function multiplicacao(a, b) {
+    return a * b;
+}
+  
+function divisao(a, b) {
+    return a / b;
+}
+  
+function exponenciacao(a, b) {
+    return a ** b;
+}
+
+module.exports = {soma,subtracao,multiplicacao,divisao,exponenciacao}
